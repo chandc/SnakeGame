@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/controller.cpp" "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/build_mac/CMakeFiles/SnakeGame.dir/src/controller.cpp.o"
-  "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/game.cpp" "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/build_mac/CMakeFiles/SnakeGame.dir/src/game.cpp.o"
-  "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/main.cpp" "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/build_mac/CMakeFiles/SnakeGame.dir/src/main.cpp.o"
-  "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/renderer.cpp" "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/build_mac/CMakeFiles/SnakeGame.dir/src/renderer.cpp.o"
-  "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/snake.cpp" "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/build_mac/CMakeFiles/SnakeGame.dir/src/snake.cpp.o"
+  "/Users/danielchan/Dropbox/SnakeGame/src/controller.cpp" "/Users/danielchan/Dropbox/SnakeGame/build_mac/CMakeFiles/SnakeGame.dir/src/controller.cpp.o"
+  "/Users/danielchan/Dropbox/SnakeGame/src/game.cpp" "/Users/danielchan/Dropbox/SnakeGame/build_mac/CMakeFiles/SnakeGame.dir/src/game.cpp.o"
+  "/Users/danielchan/Dropbox/SnakeGame/src/main.cpp" "/Users/danielchan/Dropbox/SnakeGame/build_mac/CMakeFiles/SnakeGame.dir/src/main.cpp.o"
+  "/Users/danielchan/Dropbox/SnakeGame/src/renderer.cpp" "/Users/danielchan/Dropbox/SnakeGame/build_mac/CMakeFiles/SnakeGame.dir/src/renderer.cpp.o"
+  "/Users/danielchan/Dropbox/SnakeGame/src/snake.cpp" "/Users/danielchan/Dropbox/SnakeGame/build_mac/CMakeFiles/SnakeGame.dir/src/snake.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

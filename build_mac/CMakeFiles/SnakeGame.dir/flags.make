@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++17 -Wc++11-extensions -isysroot /Library/Developer/CommandLi
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2 -I/usr/local/include/SDL2 -I/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src 
+CXX_INCLUDES = -I/usr/local/Cellar/sdl2/2.0.9_1/include/SDL2 -I/usr/local/include/SDL2 -I/Users/danielchan/Dropbox/SnakeGame/src 
 

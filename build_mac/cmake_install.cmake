@@ -1,4 +1,4 @@
-# Install script for directory: /Users/danielchan/Dropbox/CppND-Capstone-Snake-Game
+# Install script for directory: /Users/danielchan/Dropbox/SnakeGame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/build_mac/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/danielchan/Dropbox/SnakeGame/build_mac/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

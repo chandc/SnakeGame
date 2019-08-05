@@ -6,83 +6,83 @@
 
 #IncludeRegexTransform: 
 
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/controller.cpp
+/Users/danielchan/Dropbox/SnakeGame/src/controller.cpp
 controller.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/controller.h
+/Users/danielchan/Dropbox/SnakeGame/src/controller.h
 iostream
 -
 SDL.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/SDL.h
+/Users/danielchan/Dropbox/SnakeGame/src/SDL.h
 snake.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/snake.h
+/Users/danielchan/Dropbox/SnakeGame/src/snake.h
 
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/controller.h
+/Users/danielchan/Dropbox/SnakeGame/src/controller.h
 snake.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/snake.h
+/Users/danielchan/Dropbox/SnakeGame/src/snake.h
 
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/game.cpp
+/Users/danielchan/Dropbox/SnakeGame/src/game.cpp
 game.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/game.h
+/Users/danielchan/Dropbox/SnakeGame/src/game.h
 iostream
 -
 SDL.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/SDL.h
+/Users/danielchan/Dropbox/SnakeGame/src/SDL.h
 
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/game.h
+/Users/danielchan/Dropbox/SnakeGame/src/game.h
 random
 -
 SDL.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/SDL.h
+/Users/danielchan/Dropbox/SnakeGame/src/SDL.h
 controller.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/controller.h
+/Users/danielchan/Dropbox/SnakeGame/src/controller.h
 renderer.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/renderer.h
+/Users/danielchan/Dropbox/SnakeGame/src/renderer.h
 snake.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/snake.h
+/Users/danielchan/Dropbox/SnakeGame/src/snake.h
 
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/main.cpp
+/Users/danielchan/Dropbox/SnakeGame/src/main.cpp
 iostream
 -
 controller.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/controller.h
+/Users/danielchan/Dropbox/SnakeGame/src/controller.h
 game.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/game.h
+/Users/danielchan/Dropbox/SnakeGame/src/game.h
 renderer.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/renderer.h
+/Users/danielchan/Dropbox/SnakeGame/src/renderer.h
 
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/renderer.cpp
+/Users/danielchan/Dropbox/SnakeGame/src/renderer.cpp
 renderer.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/renderer.h
+/Users/danielchan/Dropbox/SnakeGame/src/renderer.h
 iostream
 -
 string
 -
 
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/renderer.h
+/Users/danielchan/Dropbox/SnakeGame/src/renderer.h
 vector
 -
 SDL.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/SDL.h
+/Users/danielchan/Dropbox/SnakeGame/src/SDL.h
 SDL_image.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/SDL_image.h
+/Users/danielchan/Dropbox/SnakeGame/src/SDL_image.h
 snake.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/snake.h
+/Users/danielchan/Dropbox/SnakeGame/src/snake.h
 
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/snake.cpp
+/Users/danielchan/Dropbox/SnakeGame/src/snake.cpp
 snake.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/snake.h
+/Users/danielchan/Dropbox/SnakeGame/src/snake.h
 cmath
 -
 iostream
 -
 
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/snake.h
+/Users/danielchan/Dropbox/SnakeGame/src/snake.h
 vector
 -
 iostream
 -
 SDL.h
-/Users/danielchan/Dropbox/CppND-Capstone-Snake-Game/src/SDL.h
+/Users/danielchan/Dropbox/SnakeGame/src/SDL.h
 
 /usr/local/Cellar/sdl2/2.0.9_1/include/SDL2/SDL.h
 SDL_main.h
