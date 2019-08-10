@@ -31,6 +31,13 @@ Renderer::Renderer(const std::size_t screen_width,
     std::cerr << "Renderer could not be created.\n";
     std::cerr << "SDL_Error: " << SDL_GetError() << "\n";
   }
+
+  IMG_Init(IMG_INIT_JPG);
+  texture = IMG_LoadTexture(sdl_renderer, "./grass.jpg");
+  if (nullptr == texture) {
+    std::cerr << "Background picture could not be read.\n";
+    std::cerr << "SDL_Error: " << SDL_GetError() << "\n";
+  }
 }
 
 Renderer::~Renderer() {
@@ -55,10 +62,7 @@ void Renderer::Render(Snake const snake, SDL_Point const &food) {
   SDL_RenderClear(sdl_renderer);
 
   // Draw background
-  IMG_Init(IMG_INIT_JPG);
-  //texture = IMG_LoadTexture(sdl_renderer, "../udacity_bk_sq.jpg");
-  texture = IMG_LoadTexture(sdl_renderer, "../grass.jpg");
-
+  
   SDL_RenderCopy(sdl_renderer, texture, NULL, NULL);
   //SDL_RenderPresent(sdl_renderer);
 
