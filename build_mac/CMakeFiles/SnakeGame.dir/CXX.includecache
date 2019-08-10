@@ -19,6 +19,12 @@ SDL.h
 /Users/danielchan/Dropbox/SnakeGame/src/SDL.h
 SDL_mixer.h
 -
+thread
+-
+future
+-
+memory
+-
 
 /Users/danielchan/Dropbox/SnakeGame/src/game.h
 random

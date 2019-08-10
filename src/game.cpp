@@ -2,10 +2,15 @@
 #include <iostream>
 #include "SDL.h"
 #include <SDL_mixer.h>
+#include <thread>
+#include <future>
+#include <memory>
 
 
 void PlayMusic()
 {
+  std::cout << "Music thread id = " << std::this_thread::get_id() << std::endl;
+
   Mix_Music *sound = NULL;
 
   int channel;
@@ -46,7 +51,9 @@ void Game::Run(Controller const &controller, Renderer &renderer,
   int frame_count = 0;
   bool running = true;
 
-  PlayMusic();
+  std::cout << "Main thread id = " << std::this_thread::get_id() << std::endl;
+
+  std::async(std::launch::async, PlayMusic);
 
   while (running) {
     frame_start = SDL_GetTicks();
