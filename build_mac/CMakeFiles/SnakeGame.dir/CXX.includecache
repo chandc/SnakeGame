@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/danielchan/Dropbox/SnakeGame/src/controller.cpp
-controller.h
-/Users/danielchan/Dropbox/SnakeGame/src/controller.h
-iostream
--
-SDL.h
-/Users/danielchan/Dropbox/SnakeGame/src/SDL.h
-snake.h
-/Users/danielchan/Dropbox/SnakeGame/src/snake.h
-
 /Users/danielchan/Dropbox/SnakeGame/src/controller.h
 snake.h
 /Users/danielchan/Dropbox/SnakeGame/src/snake.h
@@ -27,6 +17,8 @@ iostream
 -
 SDL.h
 /Users/danielchan/Dropbox/SnakeGame/src/SDL.h
+SDL_mixer.h
+-
 
 /Users/danielchan/Dropbox/SnakeGame/src/game.h
 random
@@ -40,24 +32,6 @@ renderer.h
 snake.h
 /Users/danielchan/Dropbox/SnakeGame/src/snake.h
 
-/Users/danielchan/Dropbox/SnakeGame/src/main.cpp
-iostream
--
-controller.h
-/Users/danielchan/Dropbox/SnakeGame/src/controller.h
-game.h
-/Users/danielchan/Dropbox/SnakeGame/src/game.h
-renderer.h
-/Users/danielchan/Dropbox/SnakeGame/src/renderer.h
-
-/Users/danielchan/Dropbox/SnakeGame/src/renderer.cpp
-renderer.h
-/Users/danielchan/Dropbox/SnakeGame/src/renderer.h
-iostream
--
-string
--
-
 /Users/danielchan/Dropbox/SnakeGame/src/renderer.h
 vector
 -
@@ -67,14 +41,6 @@ SDL_image.h
 /Users/danielchan/Dropbox/SnakeGame/src/SDL_image.h
 snake.h
 /Users/danielchan/Dropbox/SnakeGame/src/snake.h
-
-/Users/danielchan/Dropbox/SnakeGame/src/snake.cpp
-snake.h
-/Users/danielchan/Dropbox/SnakeGame/src/snake.h
-cmath
--
-iostream
--
 
 /Users/danielchan/Dropbox/SnakeGame/src/snake.h
 vector
@@ -681,6 +647,22 @@ close_code.h
 /usr/local/include/SDL2/SDL_image.h
 SDL.h
 /usr/local/include/SDL2/SDL.h
+SDL_version.h
+/usr/local/include/SDL2/SDL_version.h
+begin_code.h
+/usr/local/include/SDL2/begin_code.h
+close_code.h
+/usr/local/include/SDL2/close_code.h
+
+/usr/local/include/SDL2/SDL_mixer.h
+SDL_stdinc.h
+/usr/local/include/SDL2/SDL_stdinc.h
+SDL_rwops.h
+/usr/local/include/SDL2/SDL_rwops.h
+SDL_audio.h
+/usr/local/include/SDL2/SDL_audio.h
+SDL_endian.h
+/usr/local/include/SDL2/SDL_endian.h
 SDL_version.h
 /usr/local/include/SDL2/SDL_version.h
 begin_code.h

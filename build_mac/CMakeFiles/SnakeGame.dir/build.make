@@ -140,6 +140,7 @@ SnakeGame: CMakeFiles/SnakeGame.dir/src/renderer.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/src/snake.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/build.make
 SnakeGame: /usr/local/lib/libSDL2_image.dylib
+SnakeGame: /usr/local/lib/libSDL2_mixer.dylib
 SnakeGame: CMakeFiles/SnakeGame.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/danielchan/Dropbox/SnakeGame/build_mac/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SnakeGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SnakeGame.dir/link.txt --verbose=$(VERBOSE)
