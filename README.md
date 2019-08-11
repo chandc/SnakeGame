@@ -1,6 +1,6 @@
 # CPPND: Capstone Snake Game Project
 
-I modified starter codes in the [CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game>) GitHub repository to post a background picture and play background music while the game is running. The background picture is read in as a `JPEG` file and the music is read in as a `WAV` file and played in a separate thread.
+I modified starter codes in the [CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game) GitHub repository to post a background picture and play background music while the game is running. The background picture is read in as a `JPEG` file and the music is read in as a `WAV` file and played in a separate thread.
 
 ## Basic Build Instructions for Ubuntu 19.04
 
