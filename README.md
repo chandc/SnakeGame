@@ -4,7 +4,7 @@
 
 ## Basic Build Instructions for Ubuntu 19.04
 
-This program requires *SDL2, SDL2_image* and *SDL2_mixer* libraries. I use the `apt-get` method to install them.
+This program requires *SDL2, SDL2_image* and *SDL2_mixer* libraries. we can use the `apt-get` method to install them.
 
 ```
 sudo apt-get install libsdl2-dev
@@ -14,14 +14,14 @@ sudo apt-get install libsdl2-image-dev
 sudo apt-get install libsdl2-mixer-dev
 ```
 
-To build the executable, I followed the steps below:
+To build the executable, we can follow the steps below:
 
 1. Clone the [starter repository](https://github.com/udacity/CppND-Capstone-Snake-Game).
 2. Make a build directory in the top level directory: `mkdir build_Linux && cd build_Linux`
 3. Compile: `cmake .. && make`
 4. Run it: `cd .. && ./build_Linux/SnakeGame`
 
-For `cmake` to work, I had to modify the `CmakeList.txt` file as follows
+For `cmake` to work, we need to modify the original `CmakeList.txt` file as follows
 
 ```
 cmake_minimum_required(VERSION 3.7)
@@ -52,7 +52,7 @@ The Snake game code consists of four main classes: `Game`, `Snake`, `Controller`
 
 ![](./classes.png)
 
-The image below shows the output from the game. The snake head is in dark red color and its tail is brown in color. Food is in yellow.  The movement is controlled by the `up, down,right` and `left` arrow on the keyboard. Every time the snake eats food, it is awarded with one point and its tail grows by one block. While the game is running, one can hear background music. To terminate the game, we click the orange button on the upper right hand corner.
+The image below shows the output from the game. The snake head is in dark red color and its tail is brown in color. Food is in yellow.  The movement is controlled by the `up, down,right` and `left` arrows on the keyboard. Every time the snake eats food, it is awarded with one point and its tail grows by one block. While the game is running, one can hear background music. To terminate the game, we click the orange button on the upper right hand corner.
 
 ![](./SnakeGame.png)
 
@@ -64,12 +64,13 @@ The image below shows the output from the game. The snake head is in dark red co
 4. The project uses destructors appropriately
 5. The project uses Object Oriented Programming techniques
 
-For criterion `1` , it is implemented in `game.cpp` from line `10 `to `36` and line `56`.
+Criterion `1` is implemented in `game.cpp` from line `10 `to `36` and line `56`. Thread ids are also printed on the console to show the music is played by a thread that is different from the main thread.
 
-For criterion `2` , it is implemented in `renderer.cpp` from line `35 `to `40` and line `66`.
+Criterion `2` is implemented in `renderer.cpp` from line `35 `to `40` and line `66`.
 
-For criterion `3` , it is implemented in `controller.cpp` from line `12 `to `40` and in `snake.cpp` from line `5` to line 39.
+Criterion `3` is implemented in `controller.cpp` from line `12 `to `40` and in `snake.cpp` from line `5` to line 39.
 
-For criterion `4` , it is implemented in `snake.h` in line `20`.
+Criterion `4` is implemented in `snake.h` in line `20`.
 
-For criterion `5` , it is implemented in all 4 classes, a good example is file `game.cpp`
+Criterion `5`  is implemented in all 4 classes, a good example is file `game.cpp`
+
