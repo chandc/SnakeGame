@@ -1,7 +1,5 @@
 # CPPND: Capstone Snake Game Project
 
-I modified starter codes in the [CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game) GitHub repository to post a background picture and play background music while the game is running. The background picture is read in as a `JPEG` file and the music is read in as a `WAV` file and played in a separate thread.
-
 ## Basic Build Instructions for Ubuntu 19.04
 
 This program requires *SDL2, SDL2_image* and *SDL2_mixer* libraries. I use the `apt-get` method to install them.
@@ -16,7 +14,7 @@ sudo apt-get install libsdl2-mixer-dev
 
 To build the executable, I followed the steps below:
 
-1. Clone the starter repository.
+1. Clone the [starter repository](https://github.com/udacity/CppND-Capstone-Snake-Game).
 2. Make a build directory in the top level directory: `mkdir build_Linux && cd build_Linux`
 3. Compile: `cmake .. && make`
 4. Run it: `cd .. && ./build_Linux/SnakeGame`
@@ -40,6 +38,16 @@ target_link_libraries(SnakeGame ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES} ${SDL2
 ```
 
 to include the `-pthread` flag and directory paths for `SDL2, SDL2_image` and `SDL2_mixer`.
+
+## Project Description
+
+I modified starter codes in the [CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game) GitHub repository to post a background picture of grass and play background music while the game is running. The background picture is read in as a `JPEG` file and the music is read in as a `WAV` file and played in a separate thread.
+
+
+
+![](/home/danielchan/Dropbox/SnakeGame/SnakeGame.png)
+
+
 
 added destructor for Snake in snake.h
 
