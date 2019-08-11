@@ -45,7 +45,9 @@ I modified starter codes in the [CppND-Capstone-Snake-Game](https://github.com/u
 
 
 
-![](/home/danielchan/Dropbox/SnakeGame/SnakeGame.png)
+![](./SnakeGame.png)
+
+
 
 
 
