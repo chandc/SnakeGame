@@ -56,9 +56,7 @@ The image below shows the output from the game. The snake head is in dark red co
 
 ![](./SnakeGame.png)
 
-
-
-# 5 total criteria from the rest of the rubric addressed
+# 5 total criteria from the rest of the rubric are addressed
 
 1. The project uses multi-threading
 2. The project reads data from a file and process the data
@@ -75,4 +73,3 @@ For criterion `3` , it is implemented in `controller.cpp` from line `12 `to `40`
 For criterion `4` , it is implemented in `snake.h` in line `20`.
 
 For criterion `5` , it is implemented in all 4 classes, a good example is file `game.cpp`
-
