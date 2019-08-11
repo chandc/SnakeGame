@@ -1,3 +1,5 @@
+
+
 # CPPND: Capstone Snake Game Project
 
 ## Basic Build Instructions for Ubuntu 19.04
@@ -43,15 +45,34 @@ to include the `-pthread` flag and directory paths for `SDL2, SDL2_image` and `S
 
 I modified starter codes in the [CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game) GitHub repository to post a background picture of grass and play background music while the game is running. The background picture is read in as a `JPEG` file and the music is read in as a `WAV` file and played in a separate thread.
 
+The Snake game code consists of four main classes: `Game`, `Snake`, `Controller`, and `Renderer`. The image below shows how the code functions:
 
+1. To begin, `main` creates a `Controller`, a `Game`, and a `Renderer` object. `Game` stores a `Snake` object as part of the state.
+2. `main` calls `Game::Run` to start the background music and game loop.
+
+![](./classes.png)
+
+The image below shows the output from the game. The snake head is in dark red color and its tail is brown in color. Food is in yellow.  The movement is controlled by the `up, down,right` and `left` arrow on the keyboard. Every time the snake eats food, it is awarded with one point and its tail grows by one block. While the game is running, one can hear background music. To terminate the game, we click the orange button on the upper right hand corner.
 
 ![](./SnakeGame.png)
 
 
 
+# 5 total criteria from the rest of the rubric addressed
 
+1. The project uses multi-threading
+2. The project reads data from a file and process the data
+3. The project accepts user input and processes the input
+4. The project uses destructors appropriately
+5. The project uses Object Oriented Programming techniques
 
-added destructor for Snake in snake.h
+For criterion `1` , it is implemented in `game.cpp` from line `10 `to `36` and line `56`.
 
-added SDL_DestroyRenderer in renderer.cpp
+For criterion `2` , it is implemented in `renderer.cpp` from line `35 `to `40` and line `66`.
+
+For criterion `3` , it is implemented in `controller.cpp` from line `12 `to `40` and in `snake.cpp` from line `5` to line 39.
+
+For criterion `4` , it is implemented in `snake.h` in line `20`.
+
+For criterion `5` , it is implemented in all 4 classes, a good example is file `game.cpp`
 
