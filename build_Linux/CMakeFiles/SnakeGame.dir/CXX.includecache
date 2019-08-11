@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/danielchan/Dropbox/SnakeGame/src/controller.cpp
-controller.h
-/home/danielchan/Dropbox/SnakeGame/src/controller.h
-iostream
--
-SDL.h
-/home/danielchan/Dropbox/SnakeGame/src/SDL.h
-snake.h
-/home/danielchan/Dropbox/SnakeGame/src/snake.h
-
 /home/danielchan/Dropbox/SnakeGame/src/controller.h
 snake.h
 /home/danielchan/Dropbox/SnakeGame/src/snake.h
@@ -28,6 +18,12 @@ iostream
 SDL.h
 /home/danielchan/Dropbox/SnakeGame/src/SDL.h
 SDL_mixer.h
+-
+thread
+-
+future
+-
+memory
 -
 
 /home/danielchan/Dropbox/SnakeGame/src/game.h
@@ -42,24 +38,6 @@ renderer.h
 snake.h
 /home/danielchan/Dropbox/SnakeGame/src/snake.h
 
-/home/danielchan/Dropbox/SnakeGame/src/main.cpp
-iostream
--
-controller.h
-/home/danielchan/Dropbox/SnakeGame/src/controller.h
-game.h
-/home/danielchan/Dropbox/SnakeGame/src/game.h
-renderer.h
-/home/danielchan/Dropbox/SnakeGame/src/renderer.h
-
-/home/danielchan/Dropbox/SnakeGame/src/renderer.cpp
-renderer.h
-/home/danielchan/Dropbox/SnakeGame/src/renderer.h
-iostream
--
-string
--
-
 /home/danielchan/Dropbox/SnakeGame/src/renderer.h
 vector
 -
@@ -69,14 +47,6 @@ SDL_image.h
 /home/danielchan/Dropbox/SnakeGame/src/SDL_image.h
 snake.h
 /home/danielchan/Dropbox/SnakeGame/src/snake.h
-
-/home/danielchan/Dropbox/SnakeGame/src/snake.cpp
-snake.h
-/home/danielchan/Dropbox/SnakeGame/src/snake.h
-cmath
--
-iostream
--
 
 /home/danielchan/Dropbox/SnakeGame/src/snake.h
 vector
